@@ -12,6 +12,7 @@ header {
   background-size: cover;
   z-index: -1;
   background-attachment: fixed;
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -22,7 +23,6 @@ header h1 {
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   color: #2f4f4f;
 }
@@ -60,25 +60,6 @@ header h1 {
   width: 60%;
   margin: 20px 0 20px 0;
 }
-/* Retirada do site 
-.Maquinas .textos-maquinas button {
-  margin-left: 30%;
-
-  text-align: center;
-  
-  border-radius: 15px;
-  padding: 10px;
-  background-color: cadetblue;
-  color: white;
-}
-.Maquinas .textos-maquinas button:hover{
-  color: cadetblue;
-  background-color: white;
-  transition: 500ms;
-  padding:15px;
-  
-}
-  */
 .Maquinas .img-maquinas {
   display: flex;
   width: 40%;
@@ -137,7 +118,7 @@ header h1 {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  
+
   overflow: hidden;
 }
 .rodape-1 {
@@ -178,7 +159,7 @@ header h1 {
 .rodape p {
   padding-left: 20px;
 }
-.licença{
+.licença {
   border-top: 3px solid #0a37b3;
   width: 80%;
   margin: auto;
@@ -186,10 +167,10 @@ header h1 {
   font-size: 16px;
   padding: 10px 0 10px 0;
 }
-.licença a{
+.licença a {
   color: #0a37b3;
 }
-.licença img{
+.licença img {
   width: 20px;
   padding: 0 10px 0 10px;
 }
@@ -255,7 +236,6 @@ header h1 {
   }
 }
 
-
 @media screen and (max-width: 650px) {
   .Maquinas .img-maquinas img {
     width: 300px;
@@ -263,28 +243,24 @@ header h1 {
     border-radius: 50%;
     box-shadow: 2px 6px 3px cadetblue;
   }
-  
-
 }
 @media screen and (max-width: 525px) {
   .Instrumentos .blocos {
     width: 40%;
     padding-top: 20px;
-   
+
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .rodape-1{
+  .rodape-1 {
     width: 50%;
-    
   }
 
-  .rodape-2{
+  .rodape-2 {
     width: 50%;
-    
   }
-  .video-container{
+  .video-container {
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -292,21 +268,20 @@ header h1 {
   }
 }
 @media screen and (max-width: 425px) {
- 
-  .rodape-1{
+  .rodape-1 {
     width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
 
-  .rodape-2{
+  .rodape-2 {
     width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .video-container{
+  .video-container {
     width: 100%;
     justify-content: center;
     align-items: center;
